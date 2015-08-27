@@ -1,0 +1,90 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+    display:block;
+}
+.main_width{
+    margin: 0 auto;
+    width: 82%
+}
+
+
+.header_main_background {
+    background-image: url(../images/background_main.png);
+    background-size: 100% auto;
+    background-position: top center;
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    z-index:1;
+}
+
+.main_btn {
+
+    width: 40%;
+    position: relative;
+    top: 0;
+
+    /*left: 30%;*/
+    margin: 0 auto;
+    border: 1px solid black;
+    /*background-attachment: local;*/
+}
+
+
+.main_nav{
+    width: 100%;
+    max-height: 69px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    z-index: 2;
+    position: absolute;
+}
+.nav_overall {
+    padding: 0;
+}
+.nav_left {
+    float:left;
+    display:inline-block;
+    margin:0 auto;
+}
+.nav_logo{
+    display: inline-block;
+    vertical-align: top;
+}
+.ul_left{
+    display: inline-block;
+    margin-left:55px;
+    vertical-align: top;
+}
+
+.ul_left li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn_video {
+    width: 34%;
+    margin: 0;
+    vertical-align: top;
+    float:left;
+    background-size: cover;
+}
+.btn_it {
+    width: 40%;
+    margin:  0;
+    vertical-align: top;
+    float: right;
+}
